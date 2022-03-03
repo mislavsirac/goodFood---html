@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Admin
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+        <script src="assets\js\bootstrap.min.js"></script>
+    </head>
+<body>
+  <header>
+        <section>
+          <div id="main-header">
+
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+            <a href="index.html"><img class="img-fluid" href="index.html" src="assets\img\logo-stranice.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="savjetovanje.html">Savjetovanje</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="upitnik.html">Upitnik - Kalkulator</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="omeni.html">O meni</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="nav-item special active">
+                      <a class="nav-link" href="zatrazi-savjetovanje.html">ZATRAŽI SAVJETOVANJE</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div
+        </section>
+
+  </header>
+
+
+  <main class="upitnik">
+    <section>
+      <div class="containter">
+        <div class="spacer-omeni">
+
+        </div>
+        <div class="row align-items-center savjetovanje-text omeni-text">
+          <div class="col-sm-6 ">
+            <div class="float-right">
+              <h2>Upitnik - kalkulator</h2>
+              <br>
+              <p>Odgovorite iskreno na slijedeća pitanja, jer nitko osim Vas neće znati<br>
+                 odgovore, a doznat čete koji su to ključni elementi Vaše prehrane na koje<br>
+                 morate obratiti pažnju<br>
+             </p>
+            <div class="row">
+              <div class="col-sm-3">
+
+                  <label for="spol">Spol:</label>
+                  <select id="spol" class="select-gray" name="spol" form="spolform">
+                      <option value="M">M</option>
+                      <option value="F">F</option>
+                  </select>
+              </div>
+
+              <div class="col-sm-3">
+                  <label for="dob">Dob:</label>
+                  <select id="dob" class="select-gray" name="dob" form="spolform">
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                  </select>
+              </div>
+
+              <div class="col-sm-3">
+                  <label for="visina">Visina (cm):</label>
+                  <select id="visina" class="select-gray" name="visina" form="spolform">
+                      <option value="183">183</option>
+                      <option value="184">184</option>
+                  </select>
+              </div>
+
+              <div class="col-sm-3">
+                  <label for="tezina">Težina (kg):</label>
+                  <select id="tezina" class="select-gray" name="tezina" form="spolform">
+                      <option value="95">95</option>
+                      <option value="96">96</option>
+                  </select>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-12">
+                  <label for="porcije">1. Koliko porcija/serviranja žitarica dnevno konzumirate?</label><br>
+                  <select class="select-seethrough" name="porcije" form="porcijeform">
+                      <option value="M">Manje od 1</option>
+                      <option value="F">Manje od 2</option>
+                  </select>
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="col-sm-12">
+                  <label for="porcije">2. Koliko porcija/serviranja voća dnevno konzumirate?</label><br>
+                  <select class="select-seethrough" name="porcije" form="porcijeform">
+                      <option value="M">Manje od 1</option>
+                      <option value="F">Manje od 2</option>
+                  </select>
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="col-sm-12">
+                  <label for="porcije">3. Koliko porcija/serviranja povrća dnevno konzumirate?</label><br>
+                  <select class="select-seethrough" name="porcije" form="porcijeform">
+                      <option value="M">Manje od 1</option>
+                      <option value="F">Manje od 2</option>
+                  </select>
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="col-sm-12">
+                  <label for="porcije">4. Koliko porcija/serviranja mliječnih proizvoda dnevno konzumirate?</label><br>
+                  <select class="select-seethrough" name="porcije" form="porcijeform">
+                      <option value="M">Manje od 1</option>
+                      <option value="F">Manje od 2</option>
+                  </select>
+
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="col-sm-12">
+                  <label for="porcije">5. Koliko porcija/serviranja mesa, jaja i mahunarki dnevno konzumirate?</label><br>
+                  <select class="select-seethrough" name="porcije" form="porcijeform">
+                      <option value="M">Manje od 1</option>
+                      <option value="F">Manje od 2</option>
+                  </select>
+
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-12">
+                <button type="button" name="button"  onclick="calculateBMI()" class="special zatrazi" value="">PROVJERI REZULTAT</button>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+              <h3 id="total_value"></h3>
+
+              </div>
+
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="texbox-upitnik">
+              <div class="row">
+                <div class="col-sm-12">
+                <h3>Kao pomoć prilikom procjene - jedno serviranje sadrži: <br></h3>
+                </div>
+              </div>
+              <div class="row bg-white">
+                <div class="col-sm-3">
+                  <p class="font-weight-bold">Žitarice i proizvodi od žitarica</p>
+                </div>
+                <div class="col-sm-9">
+                  <p>1 kriška kruha; 1/2 šalice kuhane riže ili tjestenine; 1/2 šalice kuhanih žitarica; otprilike 30g pahuljica</p>
+                </div>
+              </div>
+              <div class="row bg-white">
+                <div class="col-sm-3">
+                  <p class="font-weight-bold">Povrće</p>
+                </div>
+                <div class="col-sm-9">
+                  <p>1/2 šalice sjeckanog svježeg ili kuhanog povrća; 1šalica svježeg lisnatog povrća</p>
+                </div>
+              </div>
+              <div class="row bg-white">
+                <div class="col-sm-3">
+                  <p  class="font-weight-bold">Voće</p>
+                </div>
+                <div class="col-sm-9">
+                  <p>1 komad voća; 3/4 šalice voćnog soka; 1/2 šalice konzerviranog voća; 1/4 šalice sušenog voća</p>
+                </div>
+              </div>
+              <div class="row bg-white">
+                <div class="col-sm-3">
+                  <p  class="font-weight-bold">Mliječni proizvodi</p>
+                </div>
+                <div class="col-sm-9">
+                  <p>1 šalica mlijeka ili jogurta; 30 - 60g sira</p>
+                </div>
+              </div>
+              <div class="row bg-white">
+                <div class="col-sm-3">
+                  <p  class="font-weight-bold">Meso, perad, riba, grah, jaja, orasi</p>
+                </div>
+                <div class="col-sm-9">
+                  <p>60 do 85 g kuhanog nemasnog mesa, peradi ili ribe; 1 jaje; 1/2 šalice kuhanog graha; 1/3 žlice oraha</p>
+                </div>
+                <br>
+              </div>
+            </div>
+            <button type="button" name="button" onclick="location.href = 'zatrazi-savjetovanje.html'" class="special zatrazi-upitnik" value="">ZATRAŽI SAVJETOVANJE</button>
+          </div>
+        </div>
+
+          <div class="spacer-savjetovanje">
+
+          </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <section>
+      <div class="containter-fluid">
+        <div class="row">
+          <center>
+          <div class="d-flex flex-column justify-content-center bd-highlight mb-3">
+            <div class="p-2 bd-highlight"><a href="index.html"><img src="assets\img\bijeli-logo-stranice.png" alt="white-logo"></a></div>
+            <div class="p-2 bd-highlight"><a href="http://www.facebook.com"><img src="assets\img\facebook-icon.png"  alt="face-ico"></a> <a href="http://www.instagram.com"><img src="assets\img\instagram-icon.png" alt="insta-ico"></a> </div>
+            <div class="p-2 bd-highlight"><font size="+1">POLITIKA PRIVATNOSTI</font>
+                                          <br>
+                                          <small>Happy Food Good Mood 2020</small>
+            </div>
+          </div>
+          </center>
+        </div>
+
+      </div>
+    </section>
+  </footer>
+<script>
+  function calculateBMI(){
+    let spol = $("#spol").val();
+    let dob = $("#dob").val();
+    let visina = $("#visina").val();
+    let tezina = $("#tezina").val();
+
+    let visinakvadrat = visina*visina/10000;
+    let bmi = tezina/visinakvadrat;
+    bmi = bmi.toFixed(2);
+    let text = "BMI je " +bmi;
+    $("#total_value").text(text);
+
+  }
+</script>
+</body>

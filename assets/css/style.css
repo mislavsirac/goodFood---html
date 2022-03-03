@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100;400&display=swap');
+
+#main-header{
+	background-color: rgba(255,255,255, 0.5);;
+	padding: 2% 7% 0% 7%;
+}
+.main-page{
+	background-image: url('../img/header-početna.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:contain;
+
+}
+.counseling-page{
+		background-image: url('../img/salata.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+body{
+	font-family: 'Montserrat', sans-serif !important;
+}
+img{
+	max-width: 100%;
+}
+.nav-link{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+color: black;
+margin-left: 20px;
+}
+
+.saying{
+	margin-top: 25%;
+	text-align: center;
+
+}
+.circle {
+	margin: auto;
+	align-items: center;
+  text-align: center;
+	width: 23%;
+	height: 0;
+	padding-bottom: 15%;
+	padding-top: 8%;
+  position: static;
+	top: 250px;
+	border-radius: 100%;
+	background-color:  rgba(107, 199, 77, 0.5) ;
+  font-size: 1vw;
+}
+.circle h1{
+	font-size: 3vw;
+	font-weight: bolder;
+}
+.circle h3{
+	font-size: 1.3vw;
+}
+.spacer{
+	margin-top:  15%;
+}
+.special{
+		border-radius: 25px;
+		border: 2px;
+		border-color: #6bc74c;
+		background-color: #6bc74c;
+		padding: 2px;
+		padding-right: 20px;
+}
+.accordian-icons{
+	background-color: #ff6882;
+	border-radius: 50px;
+	padding: 2%;
+}
+.accordian-icon{
+	background-color: #6bc74c;
+	border-radius: 50px;
+	padding: 2%;
+}
+.panel-style{
+	background-color: #ebebeb;
+	border-radius: 50px;
+	padding: 3%;
+	margin: 2%;
+}
+
+.panel-title{
+	tab-size: 8;
+}
+#total_value{
+	margin-top: 5%;
+}
+.olive{
+	background-image: url('../img/maslinovo-ulje.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size:auto;
+	padding-top: 170px;
+	margin-top: -170px;
+	padding-bottom: 170px;
+	margin-bottom: -170px;
+}
+.savjetovanje-accordian{
+	padding-top: 170px;
+	margin-top: -170px;
+	padding-bottom: 170px;
+	margin-bottom: -170px;
+}
+.savjetovanje-text{
+margin-top: 10%;
+padding-bottom: 170px;
+margin-bottom: -170px;
+}
+.savjetovanje-text h1{
+	font-size: 3vw;
+	font-weight: bolder;
+}
+
+.savjetovanje-text h2{
+	font-size: 3vw !important;
+	font-weight: bolder;
+}
+.author-img{
+	background-image: url('../img/voće.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 130px;
+	margin: -130px;
+}
+.move{
+	margin-right: 5%;
+}
+
+.zatrazi{
+		padding: 1%;
+}
+.texbox{
+	margin-top: 35%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 45%;
+	text-align: center;
+	bottom: 0;
+	background-color: #ff6882;
+	border-radius: 25px;
+
+}
+
+.texbox-savjetovanje{
+text-align: center;
+background-color: #ff6882;
+border-radius: 25px;
+margin-top: 14%;
+padding-top: 7%;
+padding-bottom: 7%;
+
+}
+.texbox-upitnik{
+background-color: #ebebeb;
+border-radius: 15px;
+padding: 2%;
+width: 70%;
+font-size: 0.7rem;
+}
+.texbox-upitnik .row{
+	margin-bottom: 5px;
+	border-color: #ebebeb;
+}
+
+.upitnik .row{
+	margin-left: 0px !important;
+}
+.zatrazi-upitnik{
+	margin-top: 5%;
+	margin-left: 25%;
+	padding: 1%;
+}
+.hamburger{
+	margin-top: 5%;
+	padding-top: 15%;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+
+	background-image: url('../img/banner-biohamburger.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+
+}
+
+.salad{
+	margin-top: 5%;
+	padding-top: 15%;
+	margin-bottom: -10%;
+	padding-bottom: 15%;
+	background-image: url('../img/banner-salata.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 75%;
+	margin-left: 12.5% !important;
+
+}
+
+.blog{
+}
+.blog-post{
+	padding: 0px !important;
+	margin: 1.5% !important;
+	border-radius: 50px;
+	background-color: #ebebeb;
+	font-size: 0.6vw;
+}
+.blog-slike{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.text{
+		margin: 7%;
+}
+
+.naslov{
+	text-align: center;
+	margin-top: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Caveat', cursive !important;
+}
+
+h2{
+	color:  #ff6882 !important;
+		font-size: 2vw !important;
+		font-weight: bolder !important;
+}
+
+footer{
+	background-color: #6bc74c;
+	padding-top: 2%;
+	margin-top: 5%;
+}
+
+.row{
+	max-width: 100%;
+}
+
+center{
+
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+}
+.select-gray{
+	border-radius: 5px;
+	border:0px;
+	padding: 7%;
+	background-color: #ebebeb;
+	width: 100%;
+}
+.select-seethrough{
+	border-radius: 5px;
+	border-color: gray;
+	padding: 1%;
+	background-color: white;
+
+}
+li{
+	color: #ff6882;
+}
+li span{
+	color: black;
+}
+textarea{
+	resize:none !important;
+}
+#fname{
+	width: 60%;
+}
+@media only screen and (max-width: 850px) {
+	#fname{
+		width: 100%;
+	}
+	.kontakt-page .row{
+		max-width: 100% !important;
+	}
+	.spacer-savjetovanje{
+		margin-top:  35%;
+
+	}
+	.savjetovanje-text h1{
+		font-size: 3rem;
+	}
+	.savjetovanje-text{
+		padding-bottom: 0;
+	}
+
+	.counseling-page{
+		background-size: contain;
+	}
+
+	.spacer{
+		margin-top:  15%;
+	}
+	.row{
+		max-width:inherit !important;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	h2{
+		font-size: 2rem !important;
+	}
+ .col-sm-6{
+	 margin-top: 15%;
+ }
+ .texbox{
+	 width: 100%;
+ }
+ .texbox-savjetovanje{
+	 padding: : 5%;
+ }
+ .blog-post{
+	 font-size: 1rem;
+ }
+ .salad{
+	 background-size: cover;
+	 margin-bottom: 10%;
+ }
+  .savjetovanje-text img{
+  	max-width:100%;
+  	margin:0;
+		padding:15%;
+  }
+	.spacer-omeni{
+		margin: 0;
+	}
+	.savjetovanje-text h2{
+		font-size: 3rem !important;
+	}
+  .spacer-kontakt{
+  	margin-bottom: 35%;
+  }
+@media only screen and (max-width: 450px) {
+	.spacer-savjetovanje{
+		margin-top:  35%;
+
+	}
+	.savjetovanje-text h1{
+		font-size: 3rem;
+	}
+	.savjetovanje-text h2{
+		font-size: 3rem !important;
+	}
+	.counseling-page{
+		background-size: contain;
+	}
+	.spacer{
+		margin-top:  15%;
+	}
+	.circle{
+		width: 80%;
+		padding-top: 27.8%;
+		padding-bottom: 52.2%;
+	}
+	.circle h1{
+		font-size: 10.43vw;
+	}
+	.circle h3{
+		font-size: 4.52vw;
+	}
+	.row{
+		max-width:inherit !important;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	h2{
+		font-size: 2rem !important;
+	}
+ .col-sm-6{
+	 margin-top: 15%;
+ }
+ .texbox{
+	 width: 100%;
+ }
+ .texbox h3{
+	 font-size: 6vw;
+ }
+ .blog-post{
+	 font-size: 1rem;
+ }
+
+ .savjetovanje-text img{
+ 	max-width:100%;
+ 	margin-top: 5%;
+	margin-bottom: 5%;
+ }
+ .omen-text h2{
+	 font-size: 3rem !important;
+ }
+ .texbox-upitnik{
+	 width: 100%;
+	 padding-left: 5%;
+	 padding-right: 5%;
+ }
+ .texbox-upitnik .row{
+	 margin-right: 0px !important;
+ }
+ .zatrazi-upitnik{
+	 margin-bottom: 15%;
+	 margin-left: 20%;
+ }
+ .spacer-kontakt{
+ 	margin-bottom: 50%;
+ }
+}
